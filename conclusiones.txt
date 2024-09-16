@@ -1,0 +1,12 @@
+Conclusiones Ejercicio 2 APIS
+
+- Se ha construido 5 escenarios:
+	El primero para crear un nuevo usuario en el Registro
+	El segundo para crear un usuario y contraseña ya existente
+	El tercero para Ingresar con un usuario y contraseña correctos
+	El cuarto para Ingresar con contraseña incorrecta
+	Y el quinto para Ingresar un usuario No Existente
+
+- Las pruebas de los escenarios han salido como exitosas y se los ha creador con Cucumber.
+
+- Se han basado estas pruebas en la documentación de la API (https://www.postman.com/maxibon3d/petruk-test-task/collection/u9kenfe/demoblaze-api)
