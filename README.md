@@ -16,7 +16,7 @@ Se ha realizado una prueba de los dos servicios de acuerdo a los siguientes caso
   - Usuario y password correcto en login
   - Usuario y password incorrecto en login
 
-## Prerequisitos:
+## Prerequisitos
   - Maquina local con el sistema operativo Windows 11
   - IntelliJ IDE Community Edition version 2024.2.1
   - Maven version 3.9.9
