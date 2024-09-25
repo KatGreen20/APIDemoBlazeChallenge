@@ -1,50 +1,10 @@
-23:19:05.283 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-23:19:06.678 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
-23:19:06.702 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
-23:19:06.705 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
-23:19:06.708 [pool-2-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
-23:19:06.711 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
-23:19:07.402 [pool-2-thread-2] DEBUG com.intuit.karate - request:
-1 > POST https://api.demoblaze.com/signup
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 46
-1 > Host: api.demoblaze.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.12)
-1 > Accept-Encoding: gzip,deflate
-{"username":"KathGreen20","password":"leader"}
-
-23:19:07.402 [pool-2-thread-1] DEBUG com.intuit.karate - request:
-1 > POST https://api.demoblaze.com/signup
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 48
-1 > Host: api.demoblaze.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.12)
-1 > Accept-Encoding: gzip,deflate
-{"username":"KathGreen2027","password":"leader"}
-
-23:19:07.402 [pool-2-thread-3] DEBUG com.intuit.karate - request:
-1 > POST https://api.demoblaze.com/login
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 46
-1 > Host: api.demoblaze.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.12)
-1 > Accept-Encoding: gzip,deflate
-{"username":"KathGreen20","password":"leader"}
-
-23:19:07.402 [pool-2-thread-4] DEBUG com.intuit.karate - request:
-1 > POST https://api.demoblaze.com/login
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 55
-1 > Host: api.demoblaze.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.12)
-1 > Accept-Encoding: gzip,deflate
-{"username":"KathGreen20","password":"ecSvMLObZTLu2V1"}
-
-23:19:07.402 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+13:18:00.595 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:18:02.589 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+13:18:02.616 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:18:02.623 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+13:18:02.630 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+13:18:02.637 [pool-2-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+13:18:03.644 [pool-2-thread-5] DEBUG com.intuit.karate - request:
 1 > POST https://api.demoblaze.com/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 57
@@ -54,62 +14,102 @@
 1 > Accept-Encoding: gzip,deflate
 {"username":"Randy Kuhlman","password":"BEgCJY7M_r9qUTk"}
 
-23:19:08.344 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 929
+13:18:03.644 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 46
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"username":"KathGreen20","password":"leader"}
+
+13:18:03.644 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 55
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"username":"KathGreen20","password":"ecSvMLObZTLu2V1"}
+
+13:18:03.644 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 46
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"username":"KathGreen20","password":"leader"}
+
+13:18:03.644 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 48
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"username":"KathGreen2033","password":"leader"}
+
+13:18:04.536 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 886
 1 < 200
 1 < Content-Type: application/json
 1 < Vary: Accept-Encoding
-1 < X-Cloud-Trace-Context: 39db61824ed8fa60623ae8c5b852781b
-1 < Date: Mon, 16 Sep 2024 04:19:08 GMT
-1 < Server: Google Frontend
-1 < Cache-Control: private
-1 < Transfer-Encoding: chunked
-{"errorMessage":"User does not exist."}
-
-
-23:19:08.344 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 929
-1 < 200
-1 < Content-Type: application/json
-1 < Vary: Accept-Encoding
-1 < X-Cloud-Trace-Context: 2d56e61285a71a3ebfe8b1b391e6dabe
-1 < Date: Mon, 16 Sep 2024 04:19:08 GMT
+1 < X-Cloud-Trace-Context: 750ee89fabdd784fc374a06eef5a035b
+1 < Date: Wed, 25 Sep 2024 18:18:04 GMT
 1 < Server: Google Frontend
 1 < Cache-Control: private
 1 < Transfer-Encoding: chunked
 {"errorMessage":"Wrong password."}
 
 
-23:19:08.350 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 937
+13:18:04.536 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 883
 1 < 200
 1 < Content-Type: application/json
 1 < Vary: Accept-Encoding
-1 < X-Cloud-Trace-Context: 777e9f19605362f74f5cd3f4940e7c23
-1 < Date: Mon, 16 Sep 2024 04:19:08 GMT
+1 < X-Cloud-Trace-Context: 6fb0e5e03b7de294664cf977564d1e88
+1 < Date: Wed, 25 Sep 2024 18:18:04 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+13:18:04.617 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 970
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 51a3a715744f5f452a35e45cbce0f239
+1 < Date: Wed, 25 Sep 2024 18:18:04 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: S2F0aEdyZWVuMjAxNzI3ODg4"
+
+
+13:18:04.668 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1020
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: 5c89fd5251dc26351c6682ea9630e775
+1 < Date: Wed, 25 Sep 2024 18:18:04 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+
+13:18:05.003 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1355
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 4b2c839ffe6b2e1c108c1cfe35ca0cbd
+1 < Date: Wed, 25 Sep 2024 18:18:04 GMT
 1 < Server: Google Frontend
 1 < Cache-Control: private
 1 < Transfer-Encoding: chunked
 {"errorMessage":"This user already exist."}
 
 
-23:19:08.413 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1001
-1 < 200
-1 < Content-Type: application/json
-1 < Vary: Accept-Encoding
-1 < X-Cloud-Trace-Context: 4e0dff9e5639e0b7cff9beba33cd9e74
-1 < Date: Mon, 16 Sep 2024 04:19:08 GMT
-1 < Server: Google Frontend
-1 < Cache-Control: private
-1 < Transfer-Encoding: chunked
-"Auth_token: S2F0aEdyZWVuMjAxNzI3MDYw"
-
-
-23:19:08.423 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1010
-1 < 200
-1 < Content-Type: application/json
-1 < X-Cloud-Trace-Context: 8a51847df37762cff7efa1da1eedb197
-1 < Date: Mon, 16 Sep 2024 04:19:08 GMT
-1 < Server: Google Frontend
-1 < Content-Length: 3
-""
-
-
-23:19:09.143 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+13:18:06.078 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
